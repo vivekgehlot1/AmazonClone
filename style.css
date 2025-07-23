@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    border: 1.5px solid transparent;
+}
+
+ .border :hover{
+    border: 1.5px solid white;
+
+}
+
+
+
+.address_icon{
+    display: flex;
+    
+}
+.address_1{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+    border: none;
+}
+.address_2{
+    font-size: 1rem;
+    margin-left: 3px;
+    
+   
+}
+.nav_search{
+   display: flex;
+   justify-content: center;
+   background-color: pink;
+   width: 620px;
+   height: 40px;
+   border-radius: 5px;
+   margin-left: 10px;
+   
+}
+.search_option{
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    background-color: white;
+    padding: 0%;
+    padding-top:10px;
+    margin: 0;
+    color: black;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.search_input{
+   width: 100%;
+   font-size: 1rem;
+   border: none;
+    
+}
+.search_icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(151, 123, 0);
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px ;
+}
+.singin_1{
+    font-size: 0.85rem;
+    border: none;
+}
+.search_second{
+    font-size: 1rem;
+    border: none;
+}
+.nav_card i{
+   
+    font-size: 30px;
+}
+.card {
+    font-size: 10px;
+}
+.pannel{
+    display: flex;
+    height: 40px;
+    background-color: black;
+    color: wheat;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+.pannel_p{
+    display:flex;
+    width: 93%;
+    margin-right: 22px;
+    
+
+    
+    
+}
